@@ -1,4 +1,3 @@
-
 def problem2(fileName):
     file = open(fileName)
     file = file.read()
@@ -31,4 +30,3 @@ def problem2(fileName):
 
 print("Problem 2: ")
 problem2("/Users/yashikdhanaraj/Desktop/Projects/SE/Python HW/document.txt")
-    
