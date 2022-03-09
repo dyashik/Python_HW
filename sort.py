@@ -11,11 +11,12 @@ def sort_list(list):
         i = i + 1
     return list
 
-def problem2():
-    file = open("/Users/yashikdhanaraj/Desktop/Projects/SE/Python HW/document.txt")
+def problem2(fileName):
+    file = open(fileName)
     file = file.read()
     dic = {}
     split = file.split()
+    print(split)
     for word in split:
         count = 0
         for words in split:
@@ -56,6 +57,6 @@ def main():
     
     print()
     print("Problem 2: ")
-    problem2()
+    problem2("/Users/yashikdhanaraj/Desktop/Projects/SE/Python HW/document.txt")
     
 main()
