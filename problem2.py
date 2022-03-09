@@ -4,7 +4,7 @@ def problem2(fileName):
     file = file.read()
     dic = {}
     split = file.split()
-    print(split)
+    # print(split)
     for word in split:
         count = 0
         for words in split:

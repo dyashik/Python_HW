@@ -13,22 +13,15 @@ def sort_list(list):
 
 
     
-def main():
-    print("Problem 1: ")
-    list = [1, 3, 2, 7]
-    print("Before: ", list)
-    print("After: ", sort_list(list))
-    print()
-    list = [3, 2, 4, 89]
-    print("Before: ", list)
-    print("After: ", sort_list(list))
-    print()
-    list = [23, 4324, 234, 234, 2]
-    print("Before: ", list)
-    print("After: ", sort_list(list))
-    
-    
-    print()
-    
-    
-main()
+print("Problem 1: ")
+list = [1, 3, 2, 7]
+print("Before: ", list)
+print("After: ", sort_list(list))
+print()
+list = [3, 2, 4, 89]
+print("Before: ", list)
+print("After: ", sort_list(list))
+print()
+list = [23, 4324, 234, 234, 2]
+print("Before: ", list)
+print("After: ", sort_list(list))
