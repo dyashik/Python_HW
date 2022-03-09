@@ -28,8 +28,7 @@ def problem2(fileName):
     
     # print(dic)
 
-def main():
-    print("Problem 2: ")
-    problem2("/Users/yashikdhanaraj/Desktop/Projects/SE/Python HW/document.txt")
+
+print("Problem 2: ")
+problem2("/Users/yashikdhanaraj/Desktop/Projects/SE/Python HW/document.txt")
     
-main()
