@@ -25,9 +25,12 @@ def problem2(fileName):
     
     if list.__len__() == 0:
         return
+    
     print()
+    
     for word in list:
         print(word + ": " + str(dic[word]))
     
     # print(dic)
 
+problem2("/Users/yashikdhanaraj/Desktop/Projects/SE/Python HW/document.txt")
