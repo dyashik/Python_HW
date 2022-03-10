@@ -27,7 +27,7 @@ def problem2(fileName):
         return
     
     for word in list:
-        print(" " + word + ": " + str(dic[word]))
-    
+        print(word + ": " + str(dic[word]))
+    print()
     # print(dic)
 
