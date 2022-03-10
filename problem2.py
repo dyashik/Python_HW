@@ -1,5 +1,5 @@
 def problem2(fileName):
-    file = open(fileName)
+    file = open(fileName, "r")
     file = file.read()
     dic = {}
     split = file.split()
@@ -26,5 +26,4 @@ def problem2(fileName):
         print(word + ": " + str(dic[word]))
     
     # print(dic)
-
-
+    

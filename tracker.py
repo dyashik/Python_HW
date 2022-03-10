@@ -1,7 +1,7 @@
 
 def func_counter(func):
-    
-    def wrapper(y):
+
+    def wrapper(counter, y):
         wrapper.counter += 1
         func(y)
     wrapper.counter = 0
@@ -10,4 +10,4 @@ def func_counter(func):
 
 @func_counter
 def foo(y):
-    return y^2
+    return y ^ 2
