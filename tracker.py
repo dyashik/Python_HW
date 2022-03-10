@@ -15,6 +15,3 @@ def func_counter(func):
 def foo(y):
     return y^2
 
-foo(3)
-foo(3)
-print(foo.counter) # expect 2 as output

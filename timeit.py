@@ -17,4 +17,3 @@ def func():
     while x < 1000000:
         x += 1
 
-func()
