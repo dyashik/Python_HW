@@ -1,4 +1,6 @@
 def problem2(fileName):
+    if  "." not in fileName:
+        return
     file = open(fileName, "r")
     file = file.read()
     dic = {}
