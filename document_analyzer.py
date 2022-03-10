@@ -22,10 +22,13 @@ def problem2(fileName):
             break
         list.append(word)
         count += 1
-     
+    
+    if list.__len__() == 0:
+        return
     
     for word in list:
         print(word + ": " + str(dic[word]))
     
     # print(dic)
-    
+
+problem2("/Users/yashikdhanaraj/Desktop/Projects/SE/Python HW/document.txt")
