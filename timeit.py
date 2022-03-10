@@ -6,7 +6,8 @@ def calculate_time(func):
         time_rn = time.time()
         func()
         time_done = time.time()
-        return time_done - time_rn
+        print("Total time " + str(time_done - time_rn))
+        return "Total time " + str(time_done - time_rn)
         
     return wrapper
 
@@ -16,4 +17,3 @@ def func():
     x = 0
     while x < 1000000:
         x += 1
-
