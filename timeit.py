@@ -6,7 +6,7 @@ def calculate_time(func):
         time_rn = time.time()
         func()
         time_done = time.time()
-        print("Time Taken: " + str(time_done - time_rn))
+        return time_done - time_rn
         
     return wrapper
 
