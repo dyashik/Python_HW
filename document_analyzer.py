@@ -72,4 +72,3 @@ def problem2(fileName):
     
 
 
-problem2("/Users/yashikdhanaraj/Desktop/Projects/SE/Python HW/document.txt")
