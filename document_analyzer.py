@@ -25,9 +25,9 @@ def problem2(fileName):
     
     if list.__len__() == 0:
         return
-    
+    print()
     for word in list:
         print(word + ": " + str(dic[word]))
-    print()
+    
     # print(dic)
 
