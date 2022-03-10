@@ -3,7 +3,7 @@ def sort_list(list):
     i = 0
     while i < n:
         j = 0
-        while j < n - 1:
+        while j < n - i - 1:
             if list[j] > list[j + 1]:
                 list[j], list[j + 1] = list[j + 1], list[j]
             # print("Pass: " + str(list))
