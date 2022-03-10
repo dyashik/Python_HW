@@ -31,4 +31,3 @@ def problem2(fileName):
     
     # print(dic)
 
-problem2("/Users/yashikdhanaraj/Desktop/Projects/SE/Python HW/document.txt")
