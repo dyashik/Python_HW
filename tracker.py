@@ -1,6 +1,4 @@
 
-counter = 0
-
 def func_counter(func):
     
     def wrapper(y):
@@ -14,4 +12,3 @@ def func_counter(func):
 @func_counter
 def foo(y):
     return y^2
-
